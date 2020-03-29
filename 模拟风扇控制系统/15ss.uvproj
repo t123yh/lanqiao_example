@@ -46,7 +46,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>.\Objects\</OutputDirectory>
-          <OutputName>16ss</OutputName>
+          <OutputName>15ss</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -382,24 +382,14 @@
               <FilePath>.\STARTUP.A51</FilePath>
             </File>
             <File>
-              <FileName>test.c</FileName>
+              <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\test.c</FilePath>
+              <FilePath>.\main.c</FilePath>
             </File>
             <File>
-              <FileName>temperature.c</FileName>
+              <FileName>display.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\temperature.c</FilePath>
-            </File>
-            <File>
-              <FileName>onewire.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\onewire.c</FilePath>
-            </File>
-            <File>
-              <FileName>tube.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\tube.c</FilePath>
+              <FilePath>.\display.c</FilePath>
             </File>
             <File>
               <FileName>globals.c</FileName>
@@ -407,14 +397,19 @@
               <FilePath>.\globals.c</FilePath>
             </File>
             <File>
-              <FileName>ds1302.c</FileName>
+              <FileName>pwm.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\ds1302.c</FilePath>
+              <FilePath>.\pwm.c</FilePath>
             </File>
             <File>
               <FileName>button.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\button.c</FilePath>
+            </File>
+            <File>
+              <FileName>onewire.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\onewire.c</FilePath>
             </File>
           </Files>
         </Group>
